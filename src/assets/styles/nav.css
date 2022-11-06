@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    color: black;
+}
+
+.heading {
+    width: 40%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 7rem;
+    justify-content: right;
+    width: 60%;
+    padding-left: 5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:rgba(0, 0, 0);
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    color: black;
+}
+
+.home img {
+    border-radius: 50%;
+}
+
+.home p, .home a {
+    margin-top: 1rem;
+}
+
+.home p {
+    font-weight: bold;
+}
+
+.home a {
+    border: 2px solid #8C96F8;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #FFF;
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.repo-section {
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 7rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.repo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+
+.repo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.9);
+}
+
+.repo h2, .repo p {
+    margin-bottom: .5rem;
+}
+
+
+.repo p {
+    text-align: center;
+}
+
