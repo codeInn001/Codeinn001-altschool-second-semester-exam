@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-size: 0.85rem;
 }
 
 
@@ -25,7 +26,7 @@
 
 .nav-links {
     display: flex;
-    gap: 7rem;
+    gap: 2rem;
     justify-content: right;
     width: 60%;
     padding-left: 5rem;
