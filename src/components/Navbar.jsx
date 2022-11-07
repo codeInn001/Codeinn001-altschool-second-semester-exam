@@ -12,6 +12,7 @@ function Navbar() {
         <Link className="nav-link" to="/about">About</Link>
         <Link className="nav-link" to="/repos">Repositories</Link>
         <Link className="nav-link" to="/repoInfo">Repository Info</Link>
+        <Link className="nav-link" to="/error boundary">Error Boundary</Link>
 
       </div>
     </nav>
