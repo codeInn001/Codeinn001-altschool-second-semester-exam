@@ -5,7 +5,8 @@
 }
 
 
-.error-boundary-container {
+.error-boundary-container,
+.about-container {
     margin-top: 7rem;
     display: flex;
     justify-content: center;
