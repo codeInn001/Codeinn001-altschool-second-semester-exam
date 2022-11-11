@@ -59,6 +59,7 @@
     .menu {
         display: flex;
         height: 2rem;
+        cursor: pointer;
     }
 
     .show {

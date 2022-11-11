@@ -26,7 +26,6 @@ function App() {
       .then((data) => {
         setData(data);
         setLoading(true);
-        console.log(data);
       })
       .catch((err) => {
         setError(err);
@@ -41,7 +40,6 @@ function App() {
       .then((data) => {
         setRepos(data);
         setRepoLoading(true);
-        console.log(data, repos);
       })
       .catch((err) => {
         setRepoError(err);
@@ -70,7 +68,7 @@ function App() {
             element={<Repositories repos={repoLoading ? repos : "loading"} />}
           />
           <Route
-            path="/repoInfo"
+            path="/repoInfo/:name"
             element={<RepositoryInfo repoId="504944287" />}
           />
           <Route path="*" element={<About />} />

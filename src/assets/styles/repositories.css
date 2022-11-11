@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+.back {
+    justify-content: flex-start;
+    
+}
+
 .repo-section {
     display: flex;;
     align-items: center;
@@ -43,5 +48,14 @@
 
 .repo p {
     text-align: center;
+}
+
+.details-link {
+    border: 2px solid rgba(218, 224, 249, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: black;
 }
 

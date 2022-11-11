@@ -22,7 +22,7 @@ function Pagination({ pageNumbers, currentPage, setCurrentPage }) {
       </button>
       {numbersOfPages.map((page) => (
         <button
-          className="numbered-btn"
+          className={currentPage === page ? 'active' : ''}
           key={page}
           onClick={() => setCurrentPage(page)}
         >

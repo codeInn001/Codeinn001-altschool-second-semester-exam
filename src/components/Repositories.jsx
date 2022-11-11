@@ -13,7 +13,7 @@ function Repositories({ repos }) {
   const IndexOfFirstRepo = indexOfLastRepo - reposPerPage;
 
   const currentRepos = repos.slice(IndexOfFirstRepo, indexOfLastRepo);
-  const pageNumbers = Math.ceil(repos.length / reposPerPage);
+  const pageNumbers = Math.ceil(repos.length / reposPerPage) + 1;
 
   const showLess = (description) => {
     if (description.length > 100) {
@@ -43,9 +43,9 @@ function Repositories({ repos }) {
                   <h2>{repo.name}</h2>
                   <p>{repo.description ? showLess(repo.description) : ""}</p>
                   <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-                    View Repo
+                    View on Github
                   </a>
-                  <Link className="nav-link" to="/repoInfo">
+                  <Link className="details-link" to={`/repoinfo/${repo.name}`}>
                     Repository details
                   </Link>
                 </div>
